@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package com.example.examplemod.impact;
 
 import net.minecraft.world.biome.BiomeGenBase;
 

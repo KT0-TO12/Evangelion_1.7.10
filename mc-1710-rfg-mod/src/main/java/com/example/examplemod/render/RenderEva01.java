@@ -1,4 +1,4 @@
-package com.example.examplemod.client.render;
+package com.example.examplemod.render;
 
 import net.minecraft.client.renderer.entity.RenderLiving;
 import net.minecraft.entity.Entity;
@@ -13,17 +13,14 @@ public class RenderEva01 extends RenderLiving {
     private final ResourceLocation texture;
 
     public RenderEva01() {
-        // Указываем путь к OBJ Евы
-        super(null, 2.0F); // Тень размером 2 блока
+        super(null, 2.0F);
         this.model = AdvancedModelLoader.loadModel(new ResourceLocation("ev", "models/entity/eva01.obj"));
         this.texture = new ResourceLocation("ev", "textures/model/eva01.png");
     }
 
     @Override
     protected void preRenderCallback(EntityLivingBase entity, float partialTickTime) {
-        // Масштабируем модель, чтобы она была реально гигантской
         GL11.glScalef(6.0F, 6.0F, 6.0F);
-        // Поворачиваем, если модель стоит спиной
         GL11.glRotatef(180, 0, 1, 0);
     }
 

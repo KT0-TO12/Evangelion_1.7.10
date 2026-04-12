@@ -1,7 +1,6 @@
 package com.example.examplemod.entities;
 
 import com.example.examplemod.ModWeapons;
-import net.minecraft.block.Block;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ai.*;

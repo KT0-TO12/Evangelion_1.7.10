@@ -8,7 +8,7 @@ import net.minecraft.world.biome.BiomeGenBase;
 public class ModEntities {
 
     public static void init() {
-        registerMonster(EntityEva01.class, "Eva01", 0x532D82, 0x76B502);
+       // registerMonster(EntityEva01.class, "Eva01", 0x532D82, 0x76B502);
         registerMonster(EntitySachiel.class, "Sachiel", 0x111111, 0xFF0000);
     }
 

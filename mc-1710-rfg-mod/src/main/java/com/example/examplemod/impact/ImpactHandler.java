@@ -14,7 +14,8 @@ import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.potion.Potion;
 import net.minecraft.potion.PotionEffect;
-import net.minecraft.util.ChatComponentText;
+import net.minecraft.util.ChatComponentTranslation;
+import net.minecraft.util.ChatStyle;
 import net.minecraft.util.EnumChatFormatting;
 import net.minecraft.world.World;
 import net.minecraftforge.event.CommandEvent;
@@ -118,7 +119,8 @@ public class ImpactHandler {
 
         for (Object obj : world.playerEntities) {
             EntityPlayer p = (EntityPlayer) obj;
-            p.addChatMessage(new ChatComponentText(EnumChatFormatting.DARK_RED + "Начался Третий Удар."));
+            p.addChatMessage(new ChatComponentTranslation("msg.ev.impact_start")
+                    .setChatStyle(new ChatStyle().setColor(EnumChatFormatting.DARK_RED)));
             world.playSoundAtEntity(p, "evangelion:third_impact_song", 1.0F, 1.0F);
         }
     }
