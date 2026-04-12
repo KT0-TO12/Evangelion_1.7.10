@@ -1,0 +1,11 @@
+{
+  "third_impact_song": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "3udar",
+        "stream": true
+      }
+    ]
+  }
+}

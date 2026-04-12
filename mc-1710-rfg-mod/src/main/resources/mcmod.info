@@ -1,0 +1,12 @@
+[
+  {
+    "modid": "ev",
+    "name": "Example Mod",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "description": "Example mod for testing RetroFuturaGradle setup.",
+    "credits": "",
+    "authorList": [],
+    "dependencies": []
+  }
+]

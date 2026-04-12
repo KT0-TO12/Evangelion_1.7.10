@@ -1,0 +1,793 @@
+# MTL file - created by a modified js OBJExporter
+
+newmtl Titanium_Textured_3.081
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9381549646931062
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.434048 0.217778 0.615148
+Ke 0 0 0
+
+newmtl Titanium_Textured_3.082
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9381549646931062
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.434048 0.217778 0.615148
+Ke 0 0 0
+
+newmtl Tire_3.040
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9994713143682797
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.0025 0.0025 0.0025
+Ke 0 0 0
+
+newmtl Emissive_Cool_4.041
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.8694129970974077
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.403599 0.730857 0.124567
+Ke 0 0 0
+
+newmtl Titanium_Rough_4.023
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.8261717884515242
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.792157 0.819608 0.933333
+Ke 0 0 0
+
+newmtl material_0
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9994713143682797
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.0025 0.0025 0.0025
+Ke 0 0 0
+
+newmtl Titanium_Textured_3.043
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9381549646931062
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.434048 0.217778 0.615148
+Ke 0 0 0
+
+newmtl Tire_3.048
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9994713143682797
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.0025 0.0025 0.0025
+Ke 0 0 0
+
+newmtl Tire_3.050
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9994713143682797
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.0025 0.0025 0.0025
+Ke 0 0 0
+
+newmtl Titanium_Rough_4.013
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.8261717884515242
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.792157 0.819608 0.933333
+Ke 0 0 0
+
+newmtl EvaGr_9.001
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.8308205978495098
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.8 0.8 0.8
+Ke 0 0 0
+
+newmtl Tire_3.032
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9994713143682797
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.0025 0.0025 0.0025
+Ke 0 0 0
+
+newmtl Tire_3.033
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9994713143682797
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.0025 0.0025 0.0025
+Ke 0 0 0
+
+newmtl Titanium_Textured_3.057
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9381549646931062
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.434048 0.217778 0.615148
+Ke 0 0 0
+
+newmtl Titanium_Rough_4.019
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.8261717884515242
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.792157 0.819608 0.933333
+Ke 0 0 0
+
+newmtl Titanium_Textured_3.063
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9381549646931062
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.434048 0.217778 0.615148
+Ke 0 0 0
+
+newmtl Emissive_Cool_7.005
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9838132319670958
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.30303 0.0153903 0.0153903
+Ke 0 0 0
+
+newmtl Tire_3.034
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9994713143682797
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.0025 0.0025 0.0025
+Ke 0 0 0
+
+newmtl Titanium_Rough_4.022
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.8261717884515242
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.792157 0.819608 0.933333
+Ke 0 0 0
+
+newmtl Titanium_Textured_3.085
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9381549646931062
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.434048 0.217778 0.615148
+Ke 0 0 0
+
+newmtl Titanium_Textured_3.083
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9381549646931062
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.434048 0.217778 0.615148
+Ke 0 0 0
+
+newmtl VilTorso_4.001
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9563084296105436
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.8 0 0.505882
+Ke 0 0 0
+
+newmtl Titanium_Textured_3.084
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9381549646931062
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.434048 0.217778 0.615148
+Ke 0 0 0
+
+newmtl Titanium_Rough_4.021
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.8261717884515242
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.792157 0.819608 0.933333
+Ke 0 0 0
+
+newmtl Emissive_Cool_6.001
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.7885257473118872
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 1 1 1
+Ke 0 0 0
+
+newmtl Titanium_Rough_3.067
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.8760661320130133
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.938239 0.537778 0.027128
+Ke 0 0 0
+
+newmtl Emissive_Cool_7.004
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9838132319670958
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.30303 0.0153903 0.0153903
+Ke 0 0 0
+
+newmtl Titanium_Rough_3.132
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.8760661320130133
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.938239 0.537778 0.027128
+Ke 0 0 0
+
+newmtl Titanium_Rough_3.133
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.8760661320130133
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.938239 0.537778 0.027128
+Ke 0 0 0
+
+newmtl Titanium_Rough_3.129
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.8760661320130133
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.938239 0.537778 0.027128
+Ke 0 0 0
+
+newmtl Titanium_Rough_3.131
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.8760661320130133
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.938239 0.537778 0.027128
+Ke 0 0 0
+
+newmtl Titanium_Textured_3.055
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9381549646931062
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.434048 0.217778 0.615148
+Ke 0 0 0
+
+newmtl Titanium_Textured_3.056
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9381549646931062
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.434048 0.217778 0.615148
+Ke 0 0 0
+
+newmtl Titanium_Rough_4.018
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.8261717884515242
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.792157 0.819608 0.933333
+Ke 0 0 0
+
+newmtl Titanium_Textured_3.071
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9381549646931062
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.434048 0.217778 0.615148
+Ke 0 0 0
+
+newmtl Titanium_Textured_3.045
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9381549646931062
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.434048 0.217778 0.615148
+Ke 0 0 0
+
+newmtl Tire_3.031
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9994713143682797
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.0025 0.0025 0.0025
+Ke 0 0 0
+
+newmtl Titanium_Textured_3.058
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9381549646931062
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.434048 0.217778 0.615148
+Ke 0 0 0
+
+newmtl Titanium_Rough_4.020
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.8261717884515242
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.792157 0.819608 0.933333
+Ke 0 0 0
+
+newmtl Titanium_Rough_4.015
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.8261717884515242
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.792157 0.819608 0.933333
+Ke 0 0 0
+
+newmtl Titanium_Rough_4.012
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.8261717884515242
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.792157 0.819608 0.933333
+Ke 0 0 0
+
+newmtl Emissive_Cool_4.002
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.8694129970974077
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.403599 0.730857 0.124567
+Ke 0 0 0
+
+newmtl Titanium_Textured_3.052
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9381549646931062
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.434048 0.217778 0.615148
+Ke 0 0 0
+
+newmtl Emissive_Cool_4.028
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.8694129970974077
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.403599 0.730857 0.124567
+Ke 0 0 0
+
+newmtl Titanium_Textured_3.044
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9381549646931062
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.434048 0.217778 0.615148
+Ke 0 0 0
+
+newmtl EvaRed.001_1.001
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9580357147256839
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.8 0.0352941 0.0431373
+Ke 0 0 0
+
+newmtl Titanium_Rough_3.130
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.8760661320130133
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.938239 0.537778 0.027128
+Ke 0 0 0
+
+newmtl Tire_3.049
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9994713143682797
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.0025 0.0025 0.0025
+Ke 0 0 0
+
+newmtl Titanium_Textured_3.072
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9381549646931062
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.434048 0.217778 0.615148
+Ke 0 0 0
+
+newmtl Titanium_Textured_3.065
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9381549646931062
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.434048 0.217778 0.615148
+Ke 0 0 0
+
+newmtl Titanium_Textured_3.074
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9381549646931062
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.434048 0.217778 0.615148
+Ke 0 0 0
+
+newmtl Tire_3.051
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9994713143682797
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.0025 0.0025 0.0025
+Ke 0 0 0
+
+newmtl Tire_3.042
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9994713143682797
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.0025 0.0025 0.0025
+Ke 0 0 0
+
+newmtl Titanium_Textured_3.068
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9381549646931062
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.434048 0.217778 0.615148
+Ke 0 0 0
+
+newmtl Tire_3.044
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9994713143682797
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.0025 0.0025 0.0025
+Ke 0 0 0
+
+newmtl Titanium_Rough_4.014
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.8261717884515242
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.792157 0.819608 0.933333
+Ke 0 0 0
+
+newmtl Tire_3.041
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9994713143682797
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.0025 0.0025 0.0025
+Ke 0 0 0
+
+newmtl Tire_3.059
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9994713143682797
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.0025 0.0025 0.0025
+Ke 0 0 0
+
+newmtl Tire_3.035
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9994713143682797
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.0025 0.0025 0.0025
+Ke 0 0 0
+
+newmtl Titanium_Rough_4.016
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.8261717884515242
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.792157 0.819608 0.933333
+Ke 0 0 0
+
+newmtl Titanium_Textured_3.048
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9381549646931062
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.434048 0.217778 0.615148
+Ke 0 0 0
+
+newmtl Titanium_Textured_3.049
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9381549646931062
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.434048 0.217778 0.615148
+Ke 0 0 0
+
+newmtl Titanium_Rough_4.017
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.8261717884515242
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.792157 0.819608 0.933333
+Ke 0 0 0
+
+newmtl Tire_3.036
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9994713143682797
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.0025 0.0025 0.0025
+Ke 0 0 0
+
+newmtl Tire_3.039
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9994713143682797
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.0025 0.0025 0.0025
+Ke 0 0 0
+
+newmtl VilTorso_3.001
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9563084296105436
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.8 0 0.505882
+Ke 0 0 0
+
+newmtl Tire_3.045
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9994713143682797
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.0025 0.0025 0.0025
+Ke 0 0 0
+
+newmtl Titanium_Textured_3.064
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9381549646931062
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.434048 0.217778 0.615148
+Ke 0 0 0
+
+newmtl Tire_3.058
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9994713143682797
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.0025 0.0025 0.0025
+Ke 0 0 0
+
+newmtl Titanium_Textured_3.078
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9381549646931062
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.434048 0.217778 0.615148
+Ke 0 0 0
+
+newmtl Tire_3.060
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9994713143682797
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.0025 0.0025 0.0025
+Ke 0 0 0
+
+newmtl Tire_3.061
+Tr 0.0000
+Tf 1.0000 1.0000 1.0000
+illum 1
+Pr 0.9994713143682797
+Pds 1
+Pl 1
+Ka 1 1 1
+Kd 0.0025 0.0025 0.0025
+Ke 0 0 0

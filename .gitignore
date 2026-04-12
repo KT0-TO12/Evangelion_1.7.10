@@ -1,0 +1,6 @@
+# Project exclude paths
+/mc-1710-rfg-mod/.gradle/
+/mc-1710-rfg-mod/build/
+/mc-1710-rfg-mod/build/classes/java/main/
+/mc-1710-rfg-mod/build/classes/java/mcLauncher/
+/mc-1710-rfg-mod/build/classes/java/patchedMc/
