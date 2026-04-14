@@ -40,7 +40,7 @@ public class ExampleMod {
         ModEntities.init();
         ModRecipes.init();
         ModBlocks.init();
-
+        DrunRecipes.init();
         ImpactHandler impactHandler = new ImpactHandler();
         WeaponEventHandler weaponHandler = new WeaponEventHandler();
         MinecraftForge.EVENT_BUS.register(impactHandler);

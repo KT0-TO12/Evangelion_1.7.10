@@ -35,20 +35,18 @@ public class BlockAutoCannon extends BlockContainer {
         return true;
     }
 
-    // НИЖЕ — НАСТРОЙКИ ДЛЯ КАСТОМНОГО РЕНДЕРА (OBJ)
-
     @Override
     public int getRenderType() {
-        return -1; // Говорим игре не рисовать обычный куб
+        return -1;
     }
 
     @Override
     public boolean isOpaqueCube() {
-        return false; // Блок прозрачный (модель сложной формы)
+        return false;
     }
 
     @Override
     public boolean renderAsNormalBlock() {
-        return false; // Блок не является стандартным кубом
+        return false;
     }
 }
