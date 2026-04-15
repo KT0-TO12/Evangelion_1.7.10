@@ -1,8 +1,11 @@
 package com.example.examplemod.buildings.drunium_colaider;
 
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.Container;
+import net.minecraft.inventory.ICrafting;
 import net.minecraft.inventory.Slot;
 import net.minecraft.item.ItemStack;
 
@@ -28,6 +31,25 @@ public class ContainerDruniumCollider extends Container {
     }
 
     @Override
+    public void detectAndSendChanges() {
+        super.detectAndSendChanges();
+        for (Object crafter : this.crafters) {
+            ICrafting ic = (ICrafting) crafter;
+
+            // Синхронизируем энергию и охлаждение
+            ic.sendProgressBarUpdate(this, 0, te.currentDrunentum);
+            ic.sendProgressBarUpdate(this, 1, te.drunentum_cooling);
+        }
+    }
+
+    @Override
+    @SideOnly(Side.CLIENT)
+    public void updateProgressBar(int id, int value) {
+        if (id == 0) te.currentDrunentum = value;
+        if (id == 1) te.drunentum_cooling = value;
+    }
+
+    @Override
     public boolean canInteractWith(EntityPlayer player) {
         return te.isUseableByPlayer(player);
     }
@@ -46,7 +68,7 @@ public class ContainerDruniumCollider extends Container {
                     return null;
                 }
             } else {
-                if (!this.mergeItemStack(itemstack1, 0, 2, false)) {
+                if (!this.mergeItemStack(itemstack1, 0, 3, false)) {
                     return null;
                 }
             }

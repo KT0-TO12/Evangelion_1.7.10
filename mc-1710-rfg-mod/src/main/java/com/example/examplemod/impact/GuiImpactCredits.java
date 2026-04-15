@@ -13,20 +13,20 @@ public class GuiImpactCredits extends GuiScreen {
     private boolean musicStarted = false;
 
     private static final ResourceLocation[] frames = {
-            new ResourceLocation("evangelion", "textures/gui/flashback/flash_1.png"),
-            new ResourceLocation("evangelion", "textures/gui/flashback/flash_2.png"),
-            new ResourceLocation("evangelion", "textures/gui/flashback/flash_3.png"),
-            new ResourceLocation("evangelion", "textures/gui/flashback/flash_4.png"),
-            new ResourceLocation("evangelion", "textures/gui/flashback/flash_5.png"),
-            new ResourceLocation("evangelion", "textures/gui/flashback/flash_6.png"),
-            new ResourceLocation("evangelion", "textures/gui/flashback/flash_7.png"),
-            new ResourceLocation("evangelion", "textures/gui/flashback/flash_8.png")
+            new ResourceLocation("ev", "textures/gui/flashback/flash_1.png"),
+            new ResourceLocation("ev", "textures/gui/flashback/flash_2.png"),
+            new ResourceLocation("ev", "textures/gui/flashback/flash_3.png"),
+            new ResourceLocation("ev", "textures/gui/flashback/flash_4.png"),
+            new ResourceLocation("ev", "textures/gui/flashback/flash_5.png"),
+            new ResourceLocation("ev", "textures/gui/flashback/flash_6.png"),
+            new ResourceLocation("ev", "textures/gui/flashback/flash_7.png"),
+            new ResourceLocation("ev", "textures/gui/flashback/flash_8.png")
     };
 
     @Override
     public void initGui() {
         if (!musicStarted) {
-            this.mc.thePlayer.playSound("evangelion:credits_theme", 1.0F, 1.0F);
+            this.mc.thePlayer.playSound("ev:credits_theme", 1.0F, 1.0F);
             musicStarted = true;
         }
     }

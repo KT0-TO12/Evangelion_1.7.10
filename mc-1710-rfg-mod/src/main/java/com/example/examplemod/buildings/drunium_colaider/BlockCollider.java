@@ -8,7 +8,7 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
 
 public class BlockCollider extends BlockContainer {
-    private final int type; // 0-Источник, 1-Усилитель, 2-Датчик
+    private final int type;
 
     public BlockCollider(int type, String name) {
         super(Material.iron);

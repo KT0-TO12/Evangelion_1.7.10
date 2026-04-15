@@ -1,6 +1,8 @@
 package com.example.examplemod.buildings.drunium_colaider;
 
+import com.example.examplemod.ints.drunoviycolaider;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.Items;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
@@ -10,24 +12,46 @@ import net.minecraftforge.common.util.Constants;
 
 public class TileEntityDruniumSource extends TileEntity implements IInventory {
     public int currentDrunentum = 0;
-    public int cooling = 0;
-
+    public int drunentum_cooling = 0;
     private ItemStack[] inventory = new ItemStack[4];
 
     @Override
     public void updateEntity() {
         if (worldObj.isRemote) return;
+        ItemStack waterSlot = this.getStackInSlot(2);
+        if (waterSlot != null && waterSlot.getItem() == Items.water_bucket) {
+
+            if (this.drunentum_cooling + 1000 <= drunoviycolaider.drunentum_cooling_max) {
+                this.drunentum_cooling += 1000;
+
+                this.setInventorySlotContents(2, new ItemStack(Items.bucket));
+                this.markDirty();
+            }
+        }
     }
 
-    @Override
-    public int getSizeInventory() {
-        return inventory.length;
+    public void startProcess() {
+        if (this.drunentum_cooling <= drunoviycolaider.drunentum_cooling_min) return;
+        if (this.currentDrunentum < 1500) return;
+        if (this.getStackInSlot(0) != null && this.getStackInSlot(1) != null) {
+
+            this.decrStackSize(0, 1);
+            this.decrStackSize(1, 1);
+
+            this.currentDrunentum -= 1500;
+            this.drunentum_cooling -= 150;
+
+            this.worldObj.playSoundEffect(xCoord, yCoord, zCoord, "random.levelup", 1.0F, 1.0F);
+            this.markDirty();
+        }
     }
 
+
     @Override
-    public ItemStack getStackInSlot(int slot) {
-        return inventory[slot];
-    }
+    public int getSizeInventory() { return inventory.length; }
+
+    @Override
+    public ItemStack getStackInSlot(int slot) { return inventory[slot]; }
 
     @Override
     public ItemStack decrStackSize(int slot, int amount) {
@@ -62,23 +86,17 @@ public class TileEntityDruniumSource extends TileEntity implements IInventory {
         if (stack != null && stack.stackSize > getInventoryStackLimit()) {
             stack.stackSize = getInventoryStackLimit();
         }
-        markDirty();
+        this.markDirty();
     }
 
     @Override
-    public String getInventoryName() {
-        return "container.drun_collider";
-    }
+    public String getInventoryName() { return "container.drun_collider"; }
 
     @Override
-    public boolean hasCustomInventoryName() {
-        return false;
-    }
+    public boolean hasCustomInventoryName() { return false; }
 
     @Override
-    public int getInventoryStackLimit() {
-        return 64;
-    }
+    public int getInventoryStackLimit() { return 64; }
 
     @Override
     public boolean isUseableByPlayer(EntityPlayer player) {
@@ -86,23 +104,17 @@ public class TileEntityDruniumSource extends TileEntity implements IInventory {
                 player.getDistanceSq(xCoord + 0.5D, yCoord + 0.5D, zCoord + 0.5D) <= 64.0D;
     }
 
-    @Override
-    public void openInventory() {}
+    @Override public void openInventory() {}
+    @Override public void closeInventory() {}
+    @Override public boolean isItemValidForSlot(int slot, ItemStack stack) { return true; }
 
-    @Override
-    public void closeInventory() {}
-
-    @Override
-    public boolean isItemValidForSlot(int slot, ItemStack stack) {
-        return true;
-    }
-
+    // --- СОХРАНЕНИЕ ---
 
     @Override
     public void writeToNBT(NBTTagCompound nbt) {
         super.writeToNBT(nbt);
-        nbt.setInteger("Drun", currentDrunentum);
-        nbt.setInteger("Cooling", cooling);
+        nbt.setInteger("Drun", this.currentDrunentum);
+        nbt.setInteger("Cooling", this.drunentum_cooling);
 
         NBTTagList list = new NBTTagList();
         for (int i = 0; i < inventory.length; ++i) {
@@ -120,7 +132,7 @@ public class TileEntityDruniumSource extends TileEntity implements IInventory {
     public void readFromNBT(NBTTagCompound nbt) {
         super.readFromNBT(nbt);
         this.currentDrunentum = nbt.getInteger("Drun");
-        this.cooling = nbt.getInteger("Cooling");
+        this.drunentum_cooling = nbt.getInteger("Cooling");
 
         NBTTagList list = nbt.getTagList("Items", Constants.NBT.TAG_COMPOUND);
         inventory = new ItemStack[getSizeInventory()];
