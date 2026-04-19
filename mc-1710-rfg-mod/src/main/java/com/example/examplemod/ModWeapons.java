@@ -22,12 +22,18 @@ public class ModWeapons {
             .setUnlocalizedName("lance_longinus")
             .setTextureName(ExampleMod.MODID + ":lance_longinus")
             .setCreativeTab(CreativeTabs.tabCombat);
+    public static Item portal_gun = new Item()
+            .setUnlocalizedName("portal_gun")
+            .setTextureName(ExampleMod.MODID + ":portal_gun")
+            .setCreativeTab(CreativeTabs.tabCombat)
+            .setMaxStackSize(1);
     public static Item positron_rifle = new Item()
             .setUnlocalizedName("positron_rifle")
             .setTextureName(ExampleMod.MODID + ":positron_rifle")
             .setCreativeTab(CreativeTabs.tabCombat)
             .setMaxStackSize(1);
     public static void init() {
+        ALL_WEAPONS.add(portal_gun);
         ALL_WEAPONS.add(prog_knife);
         ALL_WEAPONS.add(lance_longinus);
         ALL_WEAPONS.add(positron_rifle);
